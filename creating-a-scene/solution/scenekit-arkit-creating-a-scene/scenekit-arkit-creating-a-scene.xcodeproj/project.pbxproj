@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83ECEFD91F3E46FB00FD4B60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83ECEFD81F3E46FB00FD4B60 /* AppDelegate.swift */; };
+		83ECEFDB1F3E46FB00FD4B60 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 83ECEFDA1F3E46FB00FD4B60 /* art.scnassets */; };
+		83ECEFDD1F3E46FB00FD4B60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83ECEFDC1F3E46FB00FD4B60 /* ViewController.swift */; };
+		83ECEFE01F3E46FB00FD4B60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83ECEFDE1F3E46FB00FD4B60 /* Main.storyboard */; };
+		83ECEFE21F3E46FB00FD4B60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83ECEFE11F3E46FB00FD4B60 /* Assets.xcassets */; };
+		83ECEFE51F3E46FB00FD4B60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83ECEFE31F3E46FB00FD4B60 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		83ECEFD51F3E46FB00FD4B60 /* scenekit-arkit-creating-a-scene.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "scenekit-arkit-creating-a-scene.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83ECEFD81F3E46FB00FD4B60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		83ECEFDA1F3E46FB00FD4B60 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		83ECEFDC1F3E46FB00FD4B60 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		83ECEFDF1F3E46FB00FD4B60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		83ECEFE11F3E46FB00FD4B60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83ECEFE41F3E46FB00FD4B60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		83ECEFE61F3E46FB00FD4B60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83ECEFD21F3E46FB00FD4B60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83ECEFCC1F3E46FB00FD4B60 = {
+			isa = PBXGroup;
+			children = (
+				83ECEFD71F3E46FB00FD4B60 /* scenekit-arkit-creating-a-scene */,
+				83ECEFD61F3E46FB00FD4B60 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83ECEFD61F3E46FB00FD4B60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83ECEFD51F3E46FB00FD4B60 /* scenekit-arkit-creating-a-scene.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83ECEFD71F3E46FB00FD4B60 /* scenekit-arkit-creating-a-scene */ = {
+			isa = PBXGroup;
+			children = (
+				83ECEFD81F3E46FB00FD4B60 /* AppDelegate.swift */,
+				83ECEFDA1F3E46FB00FD4B60 /* art.scnassets */,
+				83ECEFDC1F3E46FB00FD4B60 /* ViewController.swift */,
+				83ECEFDE1F3E46FB00FD4B60 /* Main.storyboard */,
+				83ECEFE11F3E46FB00FD4B60 /* Assets.xcassets */,
+				83ECEFE31F3E46FB00FD4B60 /* LaunchScreen.storyboard */,
+				83ECEFE61F3E46FB00FD4B60 /* Info.plist */,
+			);
+			path = "scenekit-arkit-creating-a-scene";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83ECEFD41F3E46FB00FD4B60 /* scenekit-arkit-creating-a-scene */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83ECEFE91F3E46FB00FD4B60 /* Build configuration list for PBXNativeTarget "scenekit-arkit-creating-a-scene" */;
+			buildPhases = (
+				83ECEFD11F3E46FB00FD4B60 /* Sources */,
+				83ECEFD21F3E46FB00FD4B60 /* Frameworks */,
+				83ECEFD31F3E46FB00FD4B60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "scenekit-arkit-creating-a-scene";
+			productName = "scenekit-arkit-creating-a-scene";
+			productReference = 83ECEFD51F3E46FB00FD4B60 /* scenekit-arkit-creating-a-scene.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83ECEFCD1F3E46FB00FD4B60 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Udacity;
+				TargetAttributes = {
+					83ECEFD41F3E46FB00FD4B60 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+				};
+			};
+			buildConfigurationList = 83ECEFD01F3E46FB00FD4B60 /* Build configuration list for PBXProject "scenekit-arkit-creating-a-scene" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83ECEFCC1F3E46FB00FD4B60;
+			productRefGroup = 83ECEFD61F3E46FB00FD4B60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83ECEFD41F3E46FB00FD4B60 /* scenekit-arkit-creating-a-scene */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83ECEFD31F3E46FB00FD4B60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83ECEFDB1F3E46FB00FD4B60 /* art.scnassets in Resources */,
+				83ECEFE51F3E46FB00FD4B60 /* LaunchScreen.storyboard in Resources */,
+				83ECEFE21F3E46FB00FD4B60 /* Assets.xcassets in Resources */,
+				83ECEFE01F3E46FB00FD4B60 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83ECEFD11F3E46FB00FD4B60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83ECEFDD1F3E46FB00FD4B60 /* ViewController.swift in Sources */,
+				83ECEFD91F3E46FB00FD4B60 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		83ECEFDE1F3E46FB00FD4B60 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83ECEFDF1F3E46FB00FD4B60 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		83ECEFE31F3E46FB00FD4B60 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83ECEFE41F3E46FB00FD4B60 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83ECEFE71F3E46FB00FD4B60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		83ECEFE81F3E46FB00FD4B60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83ECEFEA1F3E46FB00FD4B60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 34X38528D2;
+				INFOPLIST_FILE = "scenekit-arkit-creating-a-scene/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "udacity.scenekit-arkit-creating-a-scene";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		83ECEFEB1F3E46FB00FD4B60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 34X38528D2;
+				INFOPLIST_FILE = "scenekit-arkit-creating-a-scene/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "udacity.scenekit-arkit-creating-a-scene";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83ECEFD01F3E46FB00FD4B60 /* Build configuration list for PBXProject "scenekit-arkit-creating-a-scene" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83ECEFE71F3E46FB00FD4B60 /* Debug */,
+				83ECEFE81F3E46FB00FD4B60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83ECEFE91F3E46FB00FD4B60 /* Build configuration list for PBXNativeTarget "scenekit-arkit-creating-a-scene" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83ECEFEA1F3E46FB00FD4B60 /* Debug */,
+				83ECEFEB1F3E46FB00FD4B60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83ECEFCD1F3E46FB00FD4B60 /* Project object */;
+}
