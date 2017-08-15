@@ -4,7 +4,7 @@ This repository contains simple applications to demonstrate principles taught in
 
 The videos with projects are:
 - [Creating a Scene](https://github.com/udacity/ios-nd-ARKit-SceneKit/tree/master/creating-a-scene)
-- [Lights and Shadows] (https://github.com/udacity/ios-nd-ARKit-SceneKit/tree/master/lights-and-shadows)
-- [Coordinate Systems and Transformations] (https://github.com/udacity/ios-nd-ARKit-SceneKit/tree/master/coordinate-systems)
-- [Bouncing Balls] (https://github.com/udacity/ios-nd-ARKit-SceneKit/tree/master/bouncing-balls)
+- [Lights and Shadows](https://github.com/udacity/ios-nd-ARKit-SceneKit/tree/master/lights-and-shadows)
+- [Coordinate Systems and Transformations](https://github.com/udacity/ios-nd-ARKit-SceneKit/tree/master/coordinate-systems)
+- [Bouncing Balls](https://github.com/udacity/ios-nd-ARKit-SceneKit/tree/master/bouncing-balls)
 
