@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:scenekit-arkit-campfire.xcodeproj">
+      location = "self:ARParticles.xcodeproj">
    </FileRef>
 </Workspace>

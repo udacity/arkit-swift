@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  scenekit-arkit-campfire
+//  ARParticles
 //
-//  Created by Christopher Arriola on 8/9/17.
+//  Created by Christopher Arriola on 8/21/17.
 //  Copyright © 2017 Udacity. All rights reserved.
 //
 
@@ -24,10 +24,16 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         sceneView.showsStatistics = true
         
         // Create a new scene
-        let scene = SCNScene(named: "art.scnassets/ship.scn")!
+        let scene = SCNScene(named: "art.scnassets/treasure.scn")!
         
         // Set the scene to the view
         sceneView.scene = scene
+        
+        addParticleEffects()
+    }
+    
+    private func addParticleEffects() {
+        // TODO: Add particles here
     }
     
     override func viewWillAppear(_ animated: Bool) {

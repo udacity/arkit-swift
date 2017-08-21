@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		83C2B7051F3BCC8B0008756E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C2B7041F3BCC8B0008756E /* AppDelegate.swift */; };
-		83C2B7071F3BCC8B0008756E /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 83C2B7061F3BCC8B0008756E /* art.scnassets */; };
-		83C2B7091F3BCC8B0008756E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C2B7081F3BCC8B0008756E /* ViewController.swift */; };
-		83C2B70C1F3BCC8B0008756E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83C2B70A1F3BCC8B0008756E /* Main.storyboard */; };
-		83C2B70E1F3BCC8B0008756E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83C2B70D1F3BCC8B0008756E /* Assets.xcassets */; };
-		83C2B7111F3BCC8B0008756E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83C2B70F1F3BCC8B0008756E /* LaunchScreen.storyboard */; };
+		83A441B71F4B62E800C4BCFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A441B61F4B62E800C4BCFB /* AppDelegate.swift */; };
+		83A441B91F4B62E800C4BCFB /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 83A441B81F4B62E800C4BCFB /* art.scnassets */; };
+		83A441BB1F4B62E800C4BCFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A441BA1F4B62E800C4BCFB /* ViewController.swift */; };
+		83A441BE1F4B62E800C4BCFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83A441BC1F4B62E800C4BCFB /* Main.storyboard */; };
+		83A441C01F4B62E800C4BCFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83A441BF1F4B62E800C4BCFB /* Assets.xcassets */; };
+		83A441C31F4B62E800C4BCFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83A441C11F4B62E800C4BCFB /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		83C2B7011F3BCC8B0008756E /* scenekit-arkit-campfire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "scenekit-arkit-campfire.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		83C2B7041F3BCC8B0008756E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		83C2B7061F3BCC8B0008756E /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
-		83C2B7081F3BCC8B0008756E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		83C2B70B1F3BCC8B0008756E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		83C2B70D1F3BCC8B0008756E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		83C2B7101F3BCC8B0008756E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		83C2B7121F3BCC8B0008756E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83A441B31F4B62E800C4BCFB /* ARParticles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARParticles.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83A441B61F4B62E800C4BCFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		83A441B81F4B62E800C4BCFB /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		83A441BA1F4B62E800C4BCFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		83A441BD1F4B62E800C4BCFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		83A441BF1F4B62E800C4BCFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83A441C21F4B62E800C4BCFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		83A441C41F4B62E800C4BCFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		83C2B6FE1F3BCC8B0008756E /* Frameworks */ = {
+		83A441B01F4B62E800C4BCFB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,72 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		83C2B6F81F3BCC8B0008756E = {
+		83A441AA1F4B62E800C4BCFB = {
 			isa = PBXGroup;
 			children = (
-				83C2B7031F3BCC8B0008756E /* scenekit-arkit-campfire */,
-				83C2B7021F3BCC8B0008756E /* Products */,
+				83A441B51F4B62E800C4BCFB /* ARParticles */,
+				83A441B41F4B62E800C4BCFB /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		83C2B7021F3BCC8B0008756E /* Products */ = {
+		83A441B41F4B62E800C4BCFB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				83C2B7011F3BCC8B0008756E /* scenekit-arkit-campfire.app */,
+				83A441B31F4B62E800C4BCFB /* ARParticles.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		83C2B7031F3BCC8B0008756E /* scenekit-arkit-campfire */ = {
+		83A441B51F4B62E800C4BCFB /* ARParticles */ = {
 			isa = PBXGroup;
 			children = (
-				83C2B7041F3BCC8B0008756E /* AppDelegate.swift */,
-				83C2B7061F3BCC8B0008756E /* art.scnassets */,
-				83C2B7081F3BCC8B0008756E /* ViewController.swift */,
-				83C2B70A1F3BCC8B0008756E /* Main.storyboard */,
-				83C2B70D1F3BCC8B0008756E /* Assets.xcassets */,
-				83C2B70F1F3BCC8B0008756E /* LaunchScreen.storyboard */,
-				83C2B7121F3BCC8B0008756E /* Info.plist */,
+				83A441B61F4B62E800C4BCFB /* AppDelegate.swift */,
+				83A441B81F4B62E800C4BCFB /* art.scnassets */,
+				83A441BA1F4B62E800C4BCFB /* ViewController.swift */,
+				83A441BC1F4B62E800C4BCFB /* Main.storyboard */,
+				83A441BF1F4B62E800C4BCFB /* Assets.xcassets */,
+				83A441C11F4B62E800C4BCFB /* LaunchScreen.storyboard */,
+				83A441C41F4B62E800C4BCFB /* Info.plist */,
 			);
-			path = "scenekit-arkit-campfire";
+			path = ARParticles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		83C2B7001F3BCC8B0008756E /* scenekit-arkit-campfire */ = {
+		83A441B21F4B62E800C4BCFB /* ARParticles */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 83C2B7151F3BCC8B0008756E /* Build configuration list for PBXNativeTarget "scenekit-arkit-campfire" */;
+			buildConfigurationList = 83A441C71F4B62E800C4BCFB /* Build configuration list for PBXNativeTarget "ARParticles" */;
 			buildPhases = (
-				83C2B6FD1F3BCC8B0008756E /* Sources */,
-				83C2B6FE1F3BCC8B0008756E /* Frameworks */,
-				83C2B6FF1F3BCC8B0008756E /* Resources */,
+				83A441AF1F4B62E800C4BCFB /* Sources */,
+				83A441B01F4B62E800C4BCFB /* Frameworks */,
+				83A441B11F4B62E800C4BCFB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "scenekit-arkit-campfire";
-			productName = "scenekit-arkit-campfire";
-			productReference = 83C2B7011F3BCC8B0008756E /* scenekit-arkit-campfire.app */;
+			name = ARParticles;
+			productName = ARParticles;
+			productReference = 83A441B31F4B62E800C4BCFB /* ARParticles.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		83C2B6F91F3BCC8B0008756E /* Project object */ = {
+		83A441AB1F4B62E800C4BCFB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0900;
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = Udacity;
 				TargetAttributes = {
-					83C2B7001F3BCC8B0008756E = {
+					83A441B21F4B62E800C4BCFB = {
 						CreatedOnToolsVersion = 9.0;
 					};
 				};
 			};
-			buildConfigurationList = 83C2B6FC1F3BCC8B0008756E /* Build configuration list for PBXProject "scenekit-arkit-campfire" */;
+			buildConfigurationList = 83A441AE1F4B62E800C4BCFB /* Build configuration list for PBXProject "ARParticles" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,55 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 83C2B6F81F3BCC8B0008756E;
-			productRefGroup = 83C2B7021F3BCC8B0008756E /* Products */;
+			mainGroup = 83A441AA1F4B62E800C4BCFB;
+			productRefGroup = 83A441B41F4B62E800C4BCFB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				83C2B7001F3BCC8B0008756E /* scenekit-arkit-campfire */,
+				83A441B21F4B62E800C4BCFB /* ARParticles */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		83C2B6FF1F3BCC8B0008756E /* Resources */ = {
+		83A441B11F4B62E800C4BCFB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83C2B7071F3BCC8B0008756E /* art.scnassets in Resources */,
-				83C2B7111F3BCC8B0008756E /* LaunchScreen.storyboard in Resources */,
-				83C2B70E1F3BCC8B0008756E /* Assets.xcassets in Resources */,
-				83C2B70C1F3BCC8B0008756E /* Main.storyboard in Resources */,
+				83A441B91F4B62E800C4BCFB /* art.scnassets in Resources */,
+				83A441C31F4B62E800C4BCFB /* LaunchScreen.storyboard in Resources */,
+				83A441C01F4B62E800C4BCFB /* Assets.xcassets in Resources */,
+				83A441BE1F4B62E800C4BCFB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		83C2B6FD1F3BCC8B0008756E /* Sources */ = {
+		83A441AF1F4B62E800C4BCFB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83C2B7091F3BCC8B0008756E /* ViewController.swift in Sources */,
-				83C2B7051F3BCC8B0008756E /* AppDelegate.swift in Sources */,
+				83A441BB1F4B62E800C4BCFB /* ViewController.swift in Sources */,
+				83A441B71F4B62E800C4BCFB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		83C2B70A1F3BCC8B0008756E /* Main.storyboard */ = {
+		83A441BC1F4B62E800C4BCFB /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				83C2B70B1F3BCC8B0008756E /* Base */,
+				83A441BD1F4B62E800C4BCFB /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		83C2B70F1F3BCC8B0008756E /* LaunchScreen.storyboard */ = {
+		83A441C11F4B62E800C4BCFB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				83C2B7101F3BCC8B0008756E /* Base */,
+				83A441C21F4B62E800C4BCFB /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		83C2B7131F3BCC8B0008756E /* Debug */ = {
+		83A441C51F4B62E800C4BCFB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -223,7 +223,7 @@
 			};
 			name = Debug;
 		};
-		83C2B7141F3BCC8B0008756E /* Release */ = {
+		83A441C61F4B62E800C4BCFB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -273,28 +273,28 @@
 			};
 			name = Release;
 		};
-		83C2B7161F3BCC8B0008756E /* Debug */ = {
+		83A441C81F4B62E800C4BCFB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 34X38528D2;
-				INFOPLIST_FILE = "scenekit-arkit-campfire/Info.plist";
+				INFOPLIST_FILE = ARParticles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "udacity.scenekit-arkit-campfire";
+				PRODUCT_BUNDLE_IDENTIFIER = udacity.ARParticles;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		83C2B7171F3BCC8B0008756E /* Release */ = {
+		83A441C91F4B62E800C4BCFB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 34X38528D2;
-				INFOPLIST_FILE = "scenekit-arkit-campfire/Info.plist";
+				INFOPLIST_FILE = ARParticles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "udacity.scenekit-arkit-campfire";
+				PRODUCT_BUNDLE_IDENTIFIER = udacity.ARParticles;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -304,25 +304,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		83C2B6FC1F3BCC8B0008756E /* Build configuration list for PBXProject "scenekit-arkit-campfire" */ = {
+		83A441AE1F4B62E800C4BCFB /* Build configuration list for PBXProject "ARParticles" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				83C2B7131F3BCC8B0008756E /* Debug */,
-				83C2B7141F3BCC8B0008756E /* Release */,
+				83A441C51F4B62E800C4BCFB /* Debug */,
+				83A441C61F4B62E800C4BCFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83C2B7151F3BCC8B0008756E /* Build configuration list for PBXNativeTarget "scenekit-arkit-campfire" */ = {
+		83A441C71F4B62E800C4BCFB /* Build configuration list for PBXNativeTarget "ARParticles" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				83C2B7161F3BCC8B0008756E /* Debug */,
-				83C2B7171F3BCC8B0008756E /* Release */,
+				83A441C81F4B62E800C4BCFB /* Debug */,
+				83A441C91F4B62E800C4BCFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 83C2B6F91F3BCC8B0008756E /* Project object */;
+	rootObject = 83A441AB1F4B62E800C4BCFB /* Project object */;
 }

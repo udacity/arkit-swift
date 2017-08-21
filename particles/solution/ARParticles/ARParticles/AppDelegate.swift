@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  scenekit-arkit-campfire
+//  ARParticles
 //
-//  Created by Christopher Arriola on 8/9/17.
+//  Created by Christopher Arriola on 8/21/17.
 //  Copyright © 2017 Udacity. All rights reserved.
 //
 
