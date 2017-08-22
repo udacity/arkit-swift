@@ -58,17 +58,21 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         
         // If a hit was received, get position of
         if let result = results.first {
-            
-            // Get transform of result
-            let transform = result.worldTransform
-            
-            // Get position from transform (3rd column of transformation matrix)
-            let planePosition = SCNVector3Make(transform.columns.3.x, transform.columns.3.y, transform.columns.3.z)
-            
-            // Add door
-            let doorNode = createDoorFromScene(planePosition)!
-            sceneView.scene.rootNode.addChildNode(doorNode)
+            placeDoor(result)
         }
+    }
+    
+    private func placeDoor(_ result: ARHitTestResult) {
+        
+        // Get transform of result
+        let transform = result.worldTransform
+        
+        // Get position from transform (3rd column of transformation matrix)
+        let planePosition = SCNVector3Make(transform.columns.3.x, transform.columns.3.y, transform.columns.3.z)
+        
+        // Add door
+        let doorNode = createDoorFromScene(planePosition)!
+        sceneView.scene.rootNode.addChildNode(doorNode)
     }
     
     private func createDoorFromScene(_ position: SCNVector3) -> SCNNode? {
