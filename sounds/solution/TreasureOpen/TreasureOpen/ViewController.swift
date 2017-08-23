@@ -32,7 +32,6 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         sceneView.scene = scene
         
         treasureOpenSound = SCNAudioSource(fileNamed: "art.scnassets/TreasureOpen.mp3")
-        treasureOpenSound.volume = 0.3
         treasureOpenSound.load()
     }
     
