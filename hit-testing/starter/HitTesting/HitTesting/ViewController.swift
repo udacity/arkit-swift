@@ -49,8 +49,9 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         // Release any cached data, images, etc that aren't in use.
     }
     
-    @IBAction func didTap(_ sender: Any) {
+    @IBAction func didTap(_ sender: UITapGestureRecognizer) {
         // TODO: hit test here
+        
     }
     
     private func placeDoor(_ result: ARHitTestResult) {
