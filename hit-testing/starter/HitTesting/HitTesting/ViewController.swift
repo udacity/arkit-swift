@@ -68,7 +68,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     }
     
     private func createDoorFromScene(_ position: SCNVector3) -> SCNNode? {
-        guard let url = Bundle.main.url(forResource: "art.scnassets/door", withExtension: "scn") else {
+        guard let url = Bundle.main.url(forResource: "art.scnassets/door", withExtension: "dae") else {
             NSLog("Could not find door scene")
             return nil
         }
