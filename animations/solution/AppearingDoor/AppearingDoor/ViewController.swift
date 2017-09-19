@@ -24,7 +24,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         sceneView.showsStatistics = true
         
         // Create a new scene
-        let scene = SCNScene(named: "art.scnassets/door.scn")!
+        let scene = SCNScene(named: "art.scnassets/door.dae")!
         
         // Set the scene to the view
         sceneView.scene = scene
@@ -58,6 +58,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         
         // Animate door opacity
         SCNTransaction.begin()
+        SCNTransaction.animationDuration = 2
         door?.opacity = 1
         SCNTransaction.commit()
     }

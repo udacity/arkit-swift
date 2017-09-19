@@ -4,8 +4,8 @@
   <contributor>
    <authoring_tool>SceneKit Collada Exporter v1.0</authoring_tool>
   </contributor>
-  <created>2017-09-19T16:51:39Z</created>
-  <modified>2017-09-19T16:51:39Z</modified>
+  <created>2017-09-19T18:37:03Z</created>
+  <modified>2017-09-19T18:37:03Z</modified>
   <unit meter="0.010000"/>
   <up_axis>Y_UP</up_axis>
  </asset>
@@ -171,8 +171,8 @@
  </library_geometries>
  <library_visual_scenes>
   <visual_scene id="scene12">
-   <node id="group13_pCube75" name="group13_pCube75">
-    <matrix>0.25 0 0 0 0 0.25 0 0 0 0 0.25 0 0 0 0 1 </matrix>
+   <node id="group13_pCube75" name="door">
+    <matrix>0.25 0 0 0 0 0.25 0 -1.5 0 0 0.25 -1.5 0 0 0 1 </matrix>
     <instance_geometry url="#geometry6">
      <bind_material>
       <technique_common>
@@ -183,6 +183,11 @@
       </technique_common>
      </bind_material>
     </instance_geometry>
+    <extra>
+     <technique profile="SceneKit">
+      <opacity>0</opacity>
+     </technique>
+    </extra>
    </node>
    <node id="node14" name="omni">
     <matrix>1 0 0 0 0 1 0 4 0 0 1 10 0 0 0 1 </matrix>
