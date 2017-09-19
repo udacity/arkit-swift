@@ -58,8 +58,8 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         
         // Animate door opacity
         SCNTransaction.begin()
-        SCNTransaction.animationDuration = 2
         door?.opacity = 1
+        SCNTransaction.animationDuration = 2
         SCNTransaction.commit()
     }
     
