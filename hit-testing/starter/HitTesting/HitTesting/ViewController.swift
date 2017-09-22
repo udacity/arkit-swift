@@ -59,7 +59,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         // Get transform of result
         let transform = result.worldTransform
         
-        // Get position from transform (3rd column of transformation matrix)
+        // Get position from transform (4th column of transformation matrix)
         let planePosition = SCNVector3Make(transform.columns.3.x, transform.columns.3.y, transform.columns.3.z)
         
         // Add door
