@@ -2,7 +2,7 @@
 
 This repository contains sample applications and resources to demonstrate concepts taught in Udacity's Swift ARKit Foundations course. Each application contains a starter project to be used to follow along the videos, as well as a solution project (i.e. the state of the project after following along a video).
 
-The videos with projects are:
+The concepts with projects are:
 
 ### Introduction to ARKit with SceneKit
 - [Creating a Scene](https://github.com/udacity/ios-nd-ARKit-SceneKit/tree/master/creating-a-scene)
