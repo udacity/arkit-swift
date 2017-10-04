@@ -53,8 +53,8 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     }
     
     @IBAction func onViewTapped(_ sender: Any) {
-        guard let ballNode = sceneView.scene.rootNode.childNode(withName: "cue", recursively: true) else { return }
-        ballNode.physicsBody?.applyForce(SCNVector3Make(0, 0, -6), asImpulse: true)
+        let cueNode = sceneView.scene.rootNode.childNode(withName: "cue", recursively: true)
+        cueNode?.physicsBody?.applyForce(SCNVector3Make(0, 0, -6), asImpulse: true)
     }
 
     // MARK: - ARSCNViewDelegate
