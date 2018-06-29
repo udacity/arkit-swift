@@ -18,5 +18,3 @@ The concepts with projects are:
 - [Animations](https://github.com/udacity/ios-nd-ARKit-SceneKit/tree/master/animations)
 - [Sounds](https://github.com/udacity/ios-nd-ARKit-SceneKit/tree/master/sounds)
 
-## Slack
-Any questions or dying to share what you've built with ARKit? [Join our ARKit Slack community](https://udacityardeveloper.slack.com/)! 
