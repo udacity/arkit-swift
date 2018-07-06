@@ -5,16 +5,16 @@ This repository contains sample applications and resources to demonstrate concep
 The concepts with projects are:
 
 ### Introduction to ARKit with SceneKit
-- [Creating a Scene](https://github.com/udacity/ios-nd-ARKit-SceneKit/tree/master/creating-a-scene)
 - [Setting the Scene](https://github.com/udacity/ios-nd-ARKit-SceneKit/tree/master/setting-the-scene)
+- [Creating a Scene](https://github.com/udacity/ios-nd-ARKit-SceneKit/tree/master/creating-a-scene)
 - [Lights and Shadows](https://github.com/udacity/ios-nd-ARKit-SceneKit/tree/master/lights-and-shadows)
 - [Coordinate Systems and Transformations](https://github.com/udacity/ios-nd-ARKit-SceneKit/tree/master/coordinate-systems)
 - [Physics](https://github.com/udacity/ios-nd-ARKit-SceneKit/tree/master/physics)
 - [Bouncing Balls](https://github.com/udacity/ios-nd-ARKit-SceneKit/tree/master/bouncing-balls)
 
 ### Advanced Concepts - ARKit with SceneKit
-- [Particles](https://github.com/udacity/ios-nd-ARKit-SceneKit/tree/master/particles)
 - [Hit Testing](https://github.com/udacity/ios-nd-ARKit-SceneKit/tree/master/hit-testing)
 - [Animations](https://github.com/udacity/ios-nd-ARKit-SceneKit/tree/master/animations)
+- [Particles](https://github.com/udacity/ios-nd-ARKit-SceneKit/tree/master/particles)
 - [Sounds](https://github.com/udacity/ios-nd-ARKit-SceneKit/tree/master/sounds)
 
