@@ -1,4 +1,4 @@
-# Swift ARKit Foundations
+# Swift ARKit 
 
 This repository contains sample applications and resources to demonstrate concepts taught in Udacity's "Learn ARKit with Swift" course. Each application contains a starter project to be used to follow along the videos, as well as a solution project (i.e. the state of the project after following along a video).
 
